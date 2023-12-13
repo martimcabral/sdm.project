@@ -1,6 +1,11 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
+    background-color: #282828;
 }
 
 h1 {
@@ -25,7 +30,7 @@ p {
     text-align: justify;
     font-family: 'Trebuchet MS', Arial;
     line-height: 1.3em;
-    margin: 0 150px;
+    margin: 0 375px;
 }
 
 a {
@@ -37,15 +42,14 @@ a {
 
 }
 
-/* */
-
-nav {
+.logo {
     color: white;
     font-size: 200px;
     font-family: 'Trebuchet MS', Arial;
     font-weight: bold;
     text-align: center;
     padding: 0 20px;
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,12 +57,12 @@ nav {
     display: block;
 }
 
-.topnav {
+.navbar {
     overflow: hidden;
     background-color: #333;
 }
 
-.topnav a {
+.navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -67,7 +71,31 @@ nav {
     text-decoration: none;
 }
 
-.topnav a:hover {
+.navbar a:hover {
     background-color: #ffffff;
     color: black;
+}
+
+table {
+    text-align: center;
+    border-color: white;
+}
+
+th, td {
+    color:white;
+    font-size: 75px;
+    font-family: 'Trebuchet MS', Arial;
+    font-weight: bold;
+    padding: 20px;
+    position: center;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.sub {
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', Arial;
+    text-align: justify;
+    font-weight: 100;
 }
