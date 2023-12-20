@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+  <meta property="og:image" content="https://media.discordapp.net/attachments/1062087796426285067/1187142271032889425/sdm_icon.png?ex=6595cf65&is=65835a65&hm=ba089ee457440159d9edc6a24937c6a4e419aa60fac0ff7ed036f6ec30a708a3&=&format=webp&quality=lossless"/>
+  <meta property="og:description" content="Site Oficial do SDM. Feito por Martim Cabral. Arame, Among Us, 60 Segundos, Backrooms, Vannila, MODS e futuramente muito mais!" />
+  <meta property="og:title" content="Sistema de Diversão no Minecraft" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SDM: INÍCIO</title>
@@ -48,5 +51,49 @@
       </tr>
     </table></center>
   </div>
+
+
+
+
+
+
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 </html>
