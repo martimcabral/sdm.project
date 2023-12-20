@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    color:black;
+    color:rgb(255, 255, 255);
     font-size: 112px;
     text-align: center;
     font-family: 'Trebuchet MS', Arial;
@@ -64,9 +64,10 @@ p {
     margin: 0 375px; 
 }
 
-a {
-    color: black;
+a, li, ul {
+    color: rgb(255, 255, 255);
     font-size: 16px;
+    text-align: center;
     font-weight: bold;
     text-align: center;
     font-family: 'Trebuchet MS', Arial;
