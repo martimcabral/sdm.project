@@ -21,7 +21,7 @@ body {
     margin: 0px auto;
     margin-top: 145px; /* Gap to NavBar */
     width: 1000px; /* Square Width */
-    height: 5960px; /* Squre Height */
+    height: 5890px; /* Square Height */
     background-color: rgba(21, 21, 21, 0.9); 
     backdrop-filter: blur(10px);
     border: 3px solid rgb(255, 255, 255);
